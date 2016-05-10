@@ -1,0 +1,484 @@
+﻿Log file open, 05/11/16 00:48:40
+LogInit:Display: Running engine for game: LVL1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-239501298) SRandInit(-239501297).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.067745
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Epic/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.10-15.48.40:188][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.10-15.48.40:188][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.10-15.48.40:196][  0]LogInit: Computer: DESKTOP-GSN0TK2
+[2016.05.10-15.48.40:196][  0]LogInit: User: COM
+[2016.05.10-15.48.40:196][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.10-15.48.40:196][  0]LogInit: High frequency timer resolution =3.234376 MHz
+[2016.05.10-15.48.40:196][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.05.10-15.48.40:197][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.10-15.48.40:197][  0]LogMemory: Process Physical Memory: 311.85 MB used, 311.85 MB peak
+[2016.05.10-15.48.40:197][  0]LogMemory: Process Virtual Memory: 315.44 MB used, 315.44 MB peak
+[2016.05.10-15.48.40:197][  0]LogMemory: Physical Memory: 3098.11 MB used, 4048.55 MB total
+[2016.05.10-15.48.40:197][  0]LogMemory: Virtual Memory: 652.40 MB used, 134217728.00 MB total
+[2016.05.10-15.48.40:225][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.10-15.48.40:571][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.10-15.48.40:610][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.05.10-15.48.40:610][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 2024MB of shared system memory, 1 output[s]
+[2016.05.10-15.48.40:611][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.10-15.48.40:611][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 2024MB of shared system memory, 0 output[s]
+[2016.05.10-15.48.40:611][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.10-15.48.40:615][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.10-15.48.40:615][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.05.10-15.48.40:615][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.05.10-15.48.40:615][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.05.10-15.48.40:615][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.10-15.48.40:627][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.10-15.48.40:636][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Intermediate/Shaders/WorkingDirectory/8232/).
+[2016.05.10-15.48.40:636][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/COM/AppData/Local/Temp/UnrealShaderWorkingDir/B17349C6446CA246D302D2A7590E1782/'.
+[2016.05.10-15.48.40:636][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.10-15.48.41:378][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.10-15.48.41:381][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.10-15.48.41:385][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.10-15.48.41:389][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.10-15.48.41:393][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.10-15.48.41:395][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.10-15.48.41:398][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.10-15.48.41:400][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.10-15.48.41:402][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.10-15.48.41:405][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.10-15.48.41:407][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.10-15.48.41:412][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.10-15.48.41:412][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.10-15.48.41:413][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.10-15.48.41:429][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.10-15.48.41:431][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.10-15.48.41:434][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.10-15.48.41:436][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.10-15.48.41:439][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.10-15.48.41:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.10-15.48.41:497][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.10-15.48.41:544][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/COM/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.10-15.48.41:545][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/COM/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.10-15.48.41:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.10-15.48.41:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.10-15.48.41:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.10-15.48.41:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.10-15.48.41:557][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.10-15.48.41:569][  0]LogDerivedDataCache: Using Local data cache path C:/Users/COM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.10-15.48.41:700][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.10-15.48.41:701][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.10-15.48.41:728][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.10-15.48.41:836][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.10-15.48.41:836][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.10-15.48.41:836][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.10-15.48.42:043][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.10-15.48.42:043][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.10-15.48.42:043][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.10-15.48.42:048][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.10-15.48.42:113][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.10-15.48.42:113][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.10-15.48.42:206][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.10-15.48.42:206][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.10-15.48.42:206][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.10-15.48.42:206][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.10-15.48.42:206][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.10-15.48.42:206][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.10-15.48.42:763][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.10-15.48.42:862][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2016.05.10-15.48.42:989][  0]SourceControl: Info Source control is disabled
+[2016.05.10-15.48.42:989][  0]SourceControl: Info Source control is disabled
+[2016.05.10-15.48.42:996][  0]SourceControl: Info Source control is disabled
+[2016.05.10-15.48.43:003][  0]SourceControl: Info Source control is disabled
+[2016.05.10-15.48.43:116][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2016.05.10-15.48.43:183][  0]LogEngine: Initializing Engine...
+[2016.05.10-15.48.43:371][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.10-15.48.43:377][  0]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-15.48.43:416][  0]LogInit: FAudioDevice initialized.
+[2016.05.10-15.48.43:442][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/COM/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.10-15.48.43:452][  0]LogInit: Texture streaming: Enabled
+[2016.05.10-15.48.43:619][  0]LogInit: Transaction tracking system initialized
+[2016.05.10-15.48.43:803][  0]BlueprintLog: New page: Editor Load
+[2016.05.10-15.48.44:895][  0]LocalizationService: Info Localization service is disabled
+[2016.05.10-15.48.45:404][  0]LogConsoleResponse:Display: 
+[2016.05.10-15.48.46:190][  0]LogFileCache: Scanning file cache for directory 'D:/Real Documents/LVL1/LVL MAIN/LVL1/Content/' took 0.01s
+[2016.05.10-15.48.46:190][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.10-15.48.46:190][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.10-15.48.46:190][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.10-15.48.46:874][  0]SourceControl: Info Source control is disabled
+[2016.05.10-15.48.47:009][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Epic/Epic Games/4.11/FeaturePacks/StarterContent.upack)
+[2016.05.10-15.48.47:124][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.05.10-15.48.47:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.05.10-15.48.47:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.05.10-15.48.47:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.05.10-15.48.47:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.05.10-15.48.47:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.05.10-15.48.47:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.05.10-15.48.47:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.05.10-15.48.47:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.05.10-15.48.47:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.05.10-15.48.47:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.05.10-15.48.47:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.05.10-15.48.47:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.05.10-15.48.47:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.05.10-15.48.47:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.05.10-15.48.47:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.05.10-15.48.47:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.05.10-15.48.47:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.05.10-15.48.47:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Fire01.uasset"
+[2016.05.10-15.48.47:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.05.10-15.48.47:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.05.10-15.48.47:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.05.10-15.48.47:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Light01.uasset"
+[2016.05.10-15.48.47:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.05.10-15.48.47:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Light02.uasset"
+[2016.05.10-15.48.47:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.05.10-15.48.47:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.05.10-15.48.47:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.05.10-15.48.47:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.05.10-15.48.47:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.05.10-15.48.47:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.05.10-15.48.47:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.05.10-15.48.47:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.05.10-15.48.47:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.05.10-15.48.47:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Steam01.uasset"
+[2016.05.10-15.48.47:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.05.10-15.48.48:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.05.10-15.48.48:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.05.10-15.48.48:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.05.10-15.48.48:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.05.10-15.48.48:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.05.10-15.48.48:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.05.10-15.48.48:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.05.10-15.48.48:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.05.10-15.48.48:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.05.10-15.48.48:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.05.10-15.48.48:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.05.10-15.48.48:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.05.10-15.48.48:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.05.10-15.48.48:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.05.10-15.48.48:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.05.10-15.48.48:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.05.10-15.48.49:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.05.10-15.48.49:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.05.10-15.48.49:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.05.10-15.48.49:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Maps/StarterMap.umap"
+[2016.05.10-15.48.49:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.05.10-15.48.49:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.05.10-15.48.49:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.05.10-15.48.49:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.05.10-15.48.49:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.05.10-15.48.49:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.05.10-15.48.49:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.05.10-15.48.49:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.05.10-15.48.49:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.05.10-15.48.49:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.05.10-15.48.49:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.05.10-15.48.49:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.05.10-15.48.49:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.05.10-15.48.49:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.05.10-15.48.49:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.05.10-15.48.49:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.05.10-15.48.49:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.05.10-15.48.49:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.05.10-15.48.49:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.05.10-15.48.49:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.05.10-15.48.49:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.05.10-15.48.49:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.05.10-15.48.49:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.05.10-15.48.49:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.05.10-15.48.49:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.05.10-15.48.49:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.05.10-15.48.50:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.05.10-15.48.50:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.05.10-15.48.50:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.05.10-15.48.50:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.05.10-15.48.50:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.05.10-15.48.50:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.05.10-15.48.50:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.05.10-15.48.50:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.05.10-15.48.50:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.05.10-15.48.50:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.05.10-15.48.50:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.05.10-15.48.50:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.05.10-15.48.50:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.05.10-15.48.50:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.05.10-15.48.50:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.05.10-15.48.50:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.05.10-15.48.50:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.05.10-15.48.50:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.05.10-15.48.50:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.05.10-15.48.50:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.05.10-15.48.50:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.05.10-15.48.50:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.05.10-15.48.50:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.05.10-15.48.51:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.05.10-15.48.51:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.05.10-15.48.51:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.05.10-15.48.51:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.05.10-15.48.51:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.05.10-15.48.51:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.05.10-15.48.51:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.05.10-15.48.51:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.05.10-15.48.51:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.05.10-15.48.51:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.05.10-15.48.51:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.05.10-15.48.51:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.05.10-15.48.51:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.05.10-15.48.51:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.05.10-15.48.51:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.05.10-15.48.51:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Door.uasset"
+[2016.05.10-15.48.51:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.05.10-15.48.51:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.05.10-15.48.51:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.05.10-15.48.51:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.05.10-15.48.51:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.05.10-15.48.51:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.05.10-15.48.51:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.05.10-15.48.51:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.05.10-15.48.51:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.05.10-15.48.51:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.05.10-15.48.51:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.05.10-15.48.51:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.05.10-15.48.51:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.05.10-15.48.51:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.05.10-15.48.51:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.05.10-15.48.51:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.05.10-15.48.51:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.05.10-15.48.51:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.05.10-15.48.51:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.05.10-15.48.51:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.05.10-15.48.51:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.05.10-15.48.51:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.05.10-15.48.51:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.05.10-15.48.51:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.05.10-15.48.51:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.05.10-15.48.51:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.05.10-15.48.51:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.05.10-15.48.51:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.05.10-15.48.51:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.05.10-15.48.51:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.05.10-15.48.51:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.05.10-15.48.51:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.05.10-15.48.51:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.05.10-15.48.51:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.05.10-15.48.51:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.05.10-15.48.51:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.05.10-15.48.51:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.05.10-15.48.51:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.05.10-15.48.51:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.05.10-15.48.52:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.05.10-15.48.52:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.05.10-15.48.52:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.05.10-15.48.52:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.05.10-15.48.52:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.05.10-15.48.52:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.05.10-15.48.52:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.05.10-15.48.52:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.05.10-15.48.52:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.05.10-15.48.52:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.05.10-15.48.52:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.05.10-15.48.52:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.05.10-15.48.52:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.05.10-15.48.53:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.05.10-15.48.53:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.05.10-15.48.53:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.05.10-15.48.53:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.05.10-15.48.53:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.05.10-15.48.53:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.05.10-15.48.53:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.05.10-15.48.53:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.05.10-15.48.53:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.05.10-15.48.53:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.05.10-15.48.53:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.05.10-15.48.53:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.05.10-15.48.53:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.05.10-15.48.53:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.05.10-15.48.53:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.05.10-15.48.54:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.05.10-15.48.54:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.05.10-15.48.54:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.05.10-15.48.54:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.05.10-15.48.54:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.05.10-15.48.54:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.05.10-15.48.55:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.05.10-15.48.55:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.05.10-15.48.55:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.05.10-15.48.55:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.05.10-15.48.55:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.05.10-15.48.55:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.05.10-15.48.56:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.05.10-15.48.56:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.05.10-15.48.56:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.05.10-15.48.56:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.05.10-15.48.56:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.05.10-15.48.56:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.05.10-15.48.56:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.05.10-15.48.57:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.05.10-15.48.57:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.05.10-15.48.57:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.05.10-15.48.57:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.05.10-15.48.57:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.05.10-15.48.57:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.05.10-15.48.58:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.05.10-15.48.58:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.05.10-15.48.58:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.05.10-15.48.58:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.05.10-15.48.58:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.05.10-15.48.58:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.05.10-15.48.58:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.05.10-15.48.58:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.05.10-15.48.58:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.05.10-15.48.58:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.05.10-15.48.58:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.05.10-15.48.59:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.05.10-15.48.59:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.05.10-15.48.59:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.05.10-15.48.59:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.05.10-15.48.59:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.05.10-15.48.59:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.05.10-15.48.59:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.05.10-15.49.00:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.05.10-15.49.00:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.05.10-15.49.00:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.05.10-15.49.00:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.05.10-15.49.00:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.05.10-15.49.00:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.05.10-15.49.01:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.05.10-15.49.01:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.05.10-15.49.01:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.05.10-15.49.01:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.05.10-15.49.01:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.05.10-15.49.01:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.05.10-15.49.02:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.05.10-15.49.02:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.05.10-15.49.02:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.05.10-15.49.02:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.05.10-15.49.02:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.05.10-15.49.02:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.05.10-15.49.03:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.05.10-15.49.03:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.05.10-15.49.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.05.10-15.49.03:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.05.10-15.49.03:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.05.10-15.49.03:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.05.10-15.49.03:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.05.10-15.49.03:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.05.10-15.49.03:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.05.10-15.49.03:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.05.10-15.49.03:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.05.10-15.49.03:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.05.10-15.49.03:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.05.10-15.49.03:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.05.10-15.49.03:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.05.10-15.49.03:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.05.10-15.49.03:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.05.10-15.49.04:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.05.10-15.49.04:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.05.10-15.49.06:397][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.05.10-15.49.06:967][  0]LogSavePackage: Save=147.85ms
+[2016.05.10-15.49.06:967][  0]LogSavePackage: Moving '../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Saved/Floor_400x4008B0575FC40D6701EF06A168EADC5A405.tmp' to '../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.05.10-15.49.07:018][  0]LogSavePackage: Total save time: 218.80ms
+[2016.05.10-15.49.07:018][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.05.10-15.49.07:018][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.05.10-15.49.07:092][  0]Cmd: MAP LOAD FILE="../../../../../../Real Documents/LVL1/LVL MAIN/LVL1/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.10-15.49.07:131][  0]LightingResults: New page: Lighting Build
+[2016.05.10-15.49.07:345][  0]MapCheck: New page: Map Check
+[2016.05.10-15.49.07:345][  0]LightingResults: New page: Lighting Build
+[2016.05.10-15.49.10:299][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.05.10-15.49.10:587][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.05.10-15.49.10:628][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.05.10-15.49.10:834][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.05.10-15.49.10:884][  0]LogTexture:Display: Building textures: AnalogHat (AutoDXT)
+[2016.05.10-15.49.11:180][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.05.10-15.49.11:194][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.05.10-15.49.11:338][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.05.10-15.49.11:403][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.05.10-15.49.11:506][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.05.10-15.49.11:544][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.05.10-15.49.11:612][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.05.10-15.49.11:624][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.05.10-15.49.11:704][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.05.10-15.49.11:724][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.05.10-15.49.11:766][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.05.10-15.49.11:787][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.05.10-15.49.11:822][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.05.10-15.49.11:903][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.05.10-15.49.11:926][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.05.10-15.49.11:977][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.05.10-15.49.11:994][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.05.10-15.49.12:031][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.05.10-15.49.12:043][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.05.10-15.49.12:047][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.05.10-15.49.12:050][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.05.10-15.49.12:052][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.05.10-15.49.12:068][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2016.05.10-15.49.12:072][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.05.10-15.49.12:102][  0]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5)
+[2016.05.10-15.49.12:209][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.05.10-15.49.12:945][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.10-15.49.13:031][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.10-15.49.13:077][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.451ms to complete.
+[2016.05.10-15.49.13:085][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 6.063
+[2016.05.10-15.49.14:885][  0]LogCollectionManager: Loaded 0 collections in 0.002231 seconds
+[2016.05.10-15.49.15:035][  0]LogFileCache: Scanning file cache for directory 'D:/Real Documents/LVL1/LVL MAIN/LVL1/Saved/Collections/' took 0.01s
+[2016.05.10-15.49.15:035][  0]LogFileCache: Scanning file cache for directory 'D:/Real Documents/LVL1/LVL MAIN/LVL1/Content/Developers/COM/Collections/' took 0.01s
+[2016.05.10-15.49.15:035][  0]LogFileCache: Scanning file cache for directory 'D:/Real Documents/LVL1/LVL MAIN/LVL1/Content/Collections/' took 0.01s
+[2016.05.10-15.49.15:035][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000012 seconds
+[2016.05.10-15.49.15:051][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 1979 classes and 343 folders.
+[2016.05.10-15.49.15:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.008 s
+[2016.05.10-15.49.15:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.10-15.49.15:168][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.05.10-15.49.15:183][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.05.10-15.49.15:343][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.10-15.49.15:928][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.10-15.49.15:995][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.10-15.49.16:481][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.10-15.49.16:706][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.10-15.49.16:816][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.10-15.49.16:816][  0]LogLoad: Full Startup: 37.21 seconds (BP compile: 0.50 seconds)
+[2016.05.10-15.49.16:816][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.10-15.49.16:865][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.10-15.49.16:865][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.10-15.49.16:882][  0]LogOcInput: OculusInput pre-init called
+[2016.05.10-15.49.17:797][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.10-15.49.19:215][  0]LogRenderer: Reallocating scene render targets to support 852x372 (Frame:3).
+[2016.05.10-15.49.20:356][ 52]LogAssetRegistry: Asset discovery search completed in 37.5166 seconds
+[2016.05.10-15.49.20:364][ 52]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.10-15.49.20:372][ 52]LogCollectionManager: Fixed up redirectors for 0 collections in 0.015112 seconds (updated 0 objects)
+[2016.05.10-15.49.22:191][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.10-15.49.22:191][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.10-15.49.22:289][248]PIE: New page: PIE session: TopDownExampleMap (May 11, 2016, 9:49:22 AM)
+[2016.05.10-15.49.22:298][248]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.05.10-15.49.22:395][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096821s)
+[2016.05.10-15.49.22:395][248]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.05.10-15.49.22:396][248]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2016.05.10-15.49.22:406][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.108145s)
+[2016.05.10-15.49.22:558][248]LogInit: XAudio2 using '스피커 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.10-15.49.22:574][248]LogInit: FAudioDevice initialized.
+[2016.05.10-15.49.22:741][248]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.05.10-15.49.22:847][248]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.05.11-00.49.22
+[2016.05.10-15.49.22:890][248]LogWorld: Bringing up level for play took: 0.045097
+[2016.05.10-15.49.22:985][248]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2016.05.10-15.49.23:004][248]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.374
+[2016.05.10-15.49.23:004][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExa
